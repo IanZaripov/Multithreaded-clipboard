@@ -19,7 +19,7 @@ bash
    git clone https://github.com/IanZaripov/Multithreaded-clipboard.git
    cd Multithreaded-clipboard
    make
-   ./program.exe
+   ./program
   ```
 
 ##  Сборка и запуск на Windows
