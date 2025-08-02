@@ -1,5 +1,5 @@
 CXX := g++
-CXXFLAGS := -std=c++11 -Wall -Wextra -pthread
+CXXFLAGS := -std=c++14 -pthread
 
 # Исходные файлы (теперь в src/)
 SRCS := src/main.cpp src/Buffer.cpp src/thread_reader.cpp src/thread_writer.cpp
