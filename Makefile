@@ -2,7 +2,7 @@ CXX := g++
 CXXFLAGS := -std=c++11 -Wall -Wextra -pthread
 
 # Исходные файлы (теперь в src/)
-SRCS := src/main.cpp src/buffer.cpp src/thread_reader.cpp src/thread_writer.cpp
+SRCS := src/main.cpp src/Buffer.cpp src/thread_reader.cpp src/thread_writer.cpp
 OBJS := $(SRCS:.cpp=.o)
 DEPS := src/buffer.h src/thread_reader.h src/thread_writer.h
 
